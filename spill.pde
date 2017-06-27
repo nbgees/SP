@@ -68,6 +68,8 @@ void draw(){
          level[i][j].Draw();
      }
   }
+  
+  //Debug
   fill(0,0,255);
   text(wx,400,30);
   text(mouseX,430,30);
